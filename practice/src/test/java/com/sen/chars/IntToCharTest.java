@@ -20,12 +20,4 @@ class IntToCharTest {
         Assert.assertNull(IntToChar.stage2method(new int[]{8, 100}));
         Assert.assertNull(IntToChar.stage2method(new int[]{-1, 1}));
     }
-//
-//    @Test
-//    public void testStage1method() {
-//    }
-//
-//    @Test
-//    public void testStage2method() {
-//    }
 }
