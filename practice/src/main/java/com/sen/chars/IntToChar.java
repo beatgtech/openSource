@@ -98,38 +98,4 @@ public class IntToChar {
         }
         return print(getAllCombinations(args));
     }
-
-    public static void main(String[] args) {
-        String[][] arrs = new String[][]{{"a", "b", "c"}, {"d", "e", "f"}, {"g", "h", "i"}};
-        List<StringBuilder> result = getAllCombinations(arrs);
-        System.out.println(result.size());
-        System.out.println(result.toString().substring(1, result.toString().length() - 1).replaceAll(",", ""));
-        for (int i = 0; i < result.size(); i++) {
-            System.out.println(result.get(i));
-        }
-
-        StringBuilder[] str = new StringBuilder[result.size()];
-        result.toArray(str);
-        System.out.println(str.length);
-        for (int i = 0; i < str.length; i++) {
-            System.out.print(" " + str[i]);
-        }
-        System.out.println();
-
-        String[][] paramResut = generateArrays(new int[]{0, 1, 10, 11, 99, 2, 3, 4});
-        System.out.println(paramResut.length == 0);
-        for (int i = 0; i < paramResut.length; i++) {
-            String[] tmp = paramResut[i];
-            for (int j = 0; j < tmp.length; j++) {
-                System.out.print(paramResut[i][j] + " ");
-            }
-            System.out.println();
-        }
-
-        List<StringBuilder> result1 = getAllCombinations(paramResut);
-        System.out.println(result1.size());
-        for (int i = 0; i < result1.size(); i++) {
-            System.out.print(" " + result1.get(i));
-        }
-    }
 }
