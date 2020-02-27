@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02eb4aed-93ae-48fb-95ce-0c0ff69b6a3d" name="Default Changelist" comment="" />
+    <list default="true" id="02eb4aed-93ae-48fb-95ce-0c0ff69b6a3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sen/chars/IntToCharTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sen/chars/IntToCharTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sen/chars/IntToCharTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sen/chars/IntToCharTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,17 +40,20 @@
     </option>
   </component>
   <component name="ProjectId" id="1YKUL9Ztzzc7tfgSU0Wbx8JeLhr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -50,8 +63,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.sen.chars in practice">
-    <configuration name="IntToChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IntToCharTest">
+    <configuration name="IntToChar" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.sen.chars.IntToChar" />
       <module name="practice" />
       <extension name="coverage">
@@ -64,29 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com in practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.sen.chars in practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntToCharTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -95,16 +86,66 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sen.chars" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="com.sen.chars.IntToCharTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntToCharTest.testStage1method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sen.chars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sen.chars" />
+      <option name="MAIN_CLASS_NAME" value="com.sen.chars.IntToCharTest" />
+      <option name="METHOD_NAME" value="testStage1method" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntToCharTest.testStage1method5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sen.chars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sen.chars" />
+      <option name="MAIN_CLASS_NAME" value="com.sen.chars.IntToCharTest" />
+      <option name="METHOD_NAME" value="testStage1method5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntToCharTest.testStage2method5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sen.chars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sen.chars" />
+      <option name="MAIN_CLASS_NAME" value="com.sen.chars.IntToCharTest" />
+      <option name="METHOD_NAME" value="testStage2method5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.sen.chars in practice" />
-        <item itemvalue="JUnit.com in practice" />
-        <item itemvalue="JUnit.All in practice" />
+        <item itemvalue="JUnit.IntToCharTest" />
+        <item itemvalue="JUnit.IntToCharTest.testStage2method5" />
+        <item itemvalue="JUnit.IntToCharTest.testStage1method5" />
+        <item itemvalue="JUnit.IntToCharTest.testStage1method" />
         <item itemvalue="Application.IntToChar" />
       </list>
     </recent_temporary>
@@ -132,13 +173,51 @@
       <option name="presentableId" value="Default" />
       <updated>1582690720886</updated>
     </task>
+    <task id="LOCAL-00001" summary="update junit">
+      <created>1582718656282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582718656282</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update junit">
+      <created>1582718701470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582718701470</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update junit">
+      <created>1582718877691</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582718877691</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="update junit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582719033407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582719033407" />
+    <state x="412" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582719031457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582719031457" />
     <state x="305" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582695366614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="305" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1582695366614" />
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1582718869017">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582718869017" />
     <state width="454" height="466" key="DebuggerActiveHint" timestamp="1582701017603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -147,22 +226,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="547" y="148" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582690771278" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1582711079483">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582765823133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582711079483" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1582711079483">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582765823133" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582765823133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582711079483" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1582711079483">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582765823133" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582765823133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582711079483" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1582711079483">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582765823133" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582765823133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582711079483" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582765823133" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1582711079484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -179,18 +258,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582711079484" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1582705445426">
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1582717893050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1582705445426" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1582690778355">
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1582717893050" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1582718547264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582690778355" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582718547264" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1582718885551">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582718885551" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582764460434">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582764460434" />
     <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582706104532">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1582706104532" />
+    <state x="57" y="59" key="new project wizard" timestamp="1582764533310">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1582764533310" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1582705773764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -203,11 +294,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sen/chars/IntToChar.java</url>
-          <line>120</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/sen/chars/IntToChar.java</url>
           <line>85</line>
